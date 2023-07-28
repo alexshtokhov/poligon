@@ -50,7 +50,7 @@
 
 .main {
     background-image: url(img/main-bg.jpg);
-    height: 774px;
+    height: 766px;
     background-position: center;
     background-size: cover;
 }
@@ -84,3 +84,26 @@
     font-family:OpenSans-SemiBold;
     padding-right: 8px;
 }
+
+
+.order-content {
+    height: 900px;
+}
+.order-img {
+    width: 1122px;
+    height: 596px;
+    position: relative;
+    top: 270px; 
+    left: 330px;
+}
+.order-subtitle {
+    width: 700px;
+    height: 249px;
+    color: #fff;
+    font-size: 40px;
+    font-family: BlenderPro-Medium;
+    position: absolute;
+	top	: 1020px;
+	left: 130px;
+    z-index: 111;
+}   
