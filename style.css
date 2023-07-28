@@ -1,0 +1,60 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: BlenderPro-Book;
+    src: url(fonts/BlenderPro-Book.woff2);
+}
+@font-face {
+    font-family: BlenderPro-Medium;
+    src: url(fonts/BlenderPro-Medium.woff2);
+}
+@font-face {
+    font-family: BlenderPro-Bold;
+    src: url(fonts/BlenderPro-Bold.woff2);
+}
+@font-face {
+    font-family: BlenderPro-Heavy;
+    src: url(fonts/BlenderPro-Heavy.woff2);
+}
+
+.header {
+    background-color: #252526;
+}
+.header-btn {
+    color: #fff;
+    padding: 13px 50px;
+    font-size: 20px;
+    font-family: BlenderPro-Book;
+    background-color: #84221F;
+    border: none;
+    cursor: pointer;
+}
+.header-btn:hover {
+    background-color: #751916;
+    transition: 0.3ms;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    padding: 20px 0;
+}
+
+
+.main {
+    background-image: url(img/main-bg.jpg);
+    height: 774px;
+    background-position: center;
+    background-size: cover;
+}
+.main-title {
+    font-family: BlenderPro-Heavy;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 369px;
+    padding-right: 3%;
+    padding-left: 50%;
+}
