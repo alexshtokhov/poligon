@@ -18,6 +18,10 @@
     font-family: BlenderPro-Heavy;
     src: url(fonts/BlenderPro-Heavy.woff2);
 }
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(fonts/OpenSans-SemiBold.ttf);
+}
 
 .header {
     background-color: #252526;
@@ -57,4 +61,26 @@
     padding-top: 369px;
     padding-right: 3%;
     padding-left: 50%;
+    padding-bottom: 90px;
+}
+.main-items {
+    display: flex;
+    justify-content: center;
+
+}
+.main-item {
+    display: flex;
+    align-items: center;
+}
+.main-item-text {
+    color: #fff;
+    font-size: 24px;
+    font-family: BlenderPro-Bold;
+    padding-right: 77px;
+}
+.main-item-title {
+    color: #fff;
+    font-size: 69px;
+    font-family:OpenSans-SemiBold;
+    padding-right: 8px;
 }
