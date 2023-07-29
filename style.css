@@ -2,6 +2,9 @@
     margin: 0; padding: 0;
     box-sizing: border-box;
 }
+h1, h2, p {
+    color: #fff;
+}
 @font-face {
     font-family: BlenderPro-Book;
     src: url(fonts/BlenderPro-Book.woff2);
@@ -23,6 +26,12 @@
     src: url(fonts/OpenSans-SemiBold.ttf);
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
 .header {
     background-color: #252526;
 }
@@ -30,7 +39,7 @@
     color: #fff;
     padding: 13px 50px;
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Bold;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -43,8 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10%;
-    padding: 20px 0;
+    padding: 20px 10%;
 }
 
 
@@ -59,14 +67,16 @@
     font-size: 60px;
     color: #fff;
     padding-top: 369px;
-    padding-right: 3%;
-    padding-left: 50%;
+    padding-right: 10%;
+    padding-left: 40%;
     padding-bottom: 90px;
+    cursor: default;
 }
 .main-items {
     display: flex;
     justify-content: center;
-
+    cursor: default;
+    margin: 0 auto;
 }
 .main-item {
     display: flex;
@@ -76,7 +86,7 @@
     color: #fff;
     font-size: 24px;
     font-family: BlenderPro-Bold;
-    padding-right: 77px;
+    padding-right: 50px;
 }
 .main-item-title {
     color: #fff;
@@ -87,14 +97,13 @@
 
 
 .order-content {
-    height: 900px;
+    cursor: default;
 }
 .order-img {
-    width: 1122px;
-    height: 596px;
+    width: 80%;
+    height: 80%;
     position: relative;
-    top: 270px; 
-    left: 330px;
+    left: 22%;
 }
 .order-subtitle {
     width: 700px;
@@ -102,8 +111,49 @@
     color: #fff;
     font-size: 40px;
     font-family: BlenderPro-Medium;
-    position: absolute;
-	top	: 1020px;
-	left: 130px;
-    z-index: 111;
-}   
+    position: relative;
+    top: 120px;
+    left: -13%;
+}
+.order-btn {
+    color: #fff;
+    padding: 18px 75px;
+    font-size: 24px;
+    font-family: BlenderPro-Bold;
+    background-color: #84221F;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: -13%;
+    top: -440px;
+}
+.order-btn:hover {
+    background-color: #751916;
+    transition: 0.3ms;
+}
+
+.advantage-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.advantage-item {
+    text-align: center;
+    margin: 30px 100px;
+    width: 25%;
+}
+.advantage-img {
+    padding-bottom: 24px;
+    width: 90px;
+}
+.advantage-title {
+    font-size: 40px;
+    font-family: BlenderPro-Medium;
+    padding-bottom: 24px;
+}
+.advantage-text {
+    font-size: 20px;
+    font-family: BlenderPro-Book;
+}
