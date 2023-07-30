@@ -58,7 +58,6 @@ h1, h2, p {
 
 .main {
     background-image: url(img/main-bg.jpg);
-    height: 766px;
     background-position: center;
     background-size: cover;
 }
@@ -156,4 +155,53 @@ h1, h2, p {
 .advantage-text {
     font-size: 20px;
     font-family: BlenderPro-Book;
+}
+.our-poligon-title {
+    font-size: 69px;
+    font-family: BlenderPro-Bold;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    position: relative;
+    left: 10%;
+}
+.our-poligon-text1 {
+    width: 620px;
+    position: relative;
+    left: -5%;
+    font-size: 20px;
+    font-family: BlenderPro-Book;
+}
+.our-poligon-text2 {
+    width: 560px;
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+    font-family: BlenderPro-Book;
+}
+.our-poligon-img2 {
+    width: 805px;
+    height: 491px;
+    position: relative;
+    left: 7%;
+}
+.our-poligon-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.our-poligon-btn {
+    color: #fff;
+    padding: 18px 75px;
+    font-size: 24px;
+    font-family: BlenderPro-Bold;
+    background-color: #84221F;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+.our-poligon-btn:hover {
+    background-color: #751916;
+    transition: 0.3ms;
 }
