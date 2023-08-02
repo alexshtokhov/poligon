@@ -26,6 +26,9 @@ h1, h2, p {
     src: url(fonts/OpenSans-SemiBold.ttf);
 }
 
+.wrapper {
+    min-height: 100%;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -332,5 +335,131 @@ h1, h2, p {
     z-index: 999999;
     position: relative;
     left: 97%;
-    
  }
+ .articles-title {
+    font-size: 69px;
+    font-family: BlenderPro-Bold;
+    padding-bottom: 70px;
+    position: relative;
+    left: 10%;
+ }
+ .articles-item a {
+    font-size: 36px;
+    color: #fff;
+    font-family: BlenderPro-Medium;
+    padding-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none;
+ }
+ .articles-item a:hover {
+    text-decoration: underline solid 1px #fff;
+ }
+ .articles-item {
+    display: flex;
+    justify-content: space-between;
+ }
+ .articles-frame {
+    max-width: 1200px;
+    position: relative;
+    left: 10%;
+ }
+ .articles-arrow {
+    width: 40px;
+    height: 40px;
+ }
+ .articles {
+    margin-top: 60px;
+    margin-bottom: 150px;
+ }
+
+ .footer {
+    background-color: #252526;
+}
+.footer-btn {
+    color: #fff;
+    padding: 13px 50px;
+    margin-bottom: 83px;
+    font-size: 20px;
+    font-family: BlenderPro-Bold;
+    background-color: #84221F;
+    border: none;
+    cursor: pointer;
+}
+.footer-btn:hover {
+    background-color: #751916;
+    transition: 0.3ms;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.adress {
+    font-size: 24px;
+    font-family: BlenderPro-Book;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.footer-item a {
+    font-size: 20px;
+    font-family: BlenderPro-Book;
+    color: #fff;
+    text-decoration: none;
+}
+.privacy {
+    font-size: 16px;
+    font-family: BlenderPro-Book;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-icon {
+    display: flex;
+    position: relative;
+    left: 51%;
+}
+
+
+
+
+
+
+
+
+
+
+.games-content {
+    width: 1110px;
+    position: relative;
+    left: 10%;
+}
+.games-title {
+    font-size: 40px;
+    font-family: BlenderPro-Medium;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.games-list {
+    font-size: 24px;
+    font-family: BlenderPro-Book;
+    color: #fff;
+
+    position: relative;
+    left: 2%;
+    
+}
+.games-text p {
+    font-size: 24px;
+    font-family: BlenderPro-Book;
+}
+.games-text {
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
+.video-games {
+    position: relative;
+    left: 10%;
+    margin-bottom: 200px;
+}
