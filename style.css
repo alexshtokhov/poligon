@@ -136,7 +136,6 @@ h1, h2, p {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 .advantage-item {
     text-align: center;
@@ -156,6 +155,101 @@ h1, h2, p {
     font-size: 20px;
     font-family: BlenderPro-Book;
 }
+
+
+
+.services {
+    margin: 150px auto;
+    display: flex;
+}
+
+.service-title {
+    font-size: 69px;
+    font-family: BlenderPro-Bold;
+    margin-top: 150px;
+    margin-bottom: -70px;
+    position: relative;
+    left: 10%;
+}
+.icon-target {
+    position: relative;
+
+}
+.service-slider-img {
+    width: 504px;
+    height: 467px;
+    position: relative;
+    left: -10%;
+    top: 13%;
+}
+
+.service-slider-line {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.service-slider-item {
+    display: flex;
+    position: relative;
+}
+
+.service-slider {
+    display: flex;
+    width: 1216px;
+    height: 630px;
+    margin-left: 10%;
+    background-color: #454545;
+}
+
+.service-subtitle {
+    font-size: 40px;
+    font-family: BlenderPro-Bold;
+    padding-bottom: 36px;
+}
+
+.service-text {
+    font-size: 24px;
+    font-family: BlenderPro-Book;
+    padding-bottom: 30px;
+}
+.service-text-2 {
+    font-size: 24px;
+    font-family: BlenderPro-Book;
+    padding-bottom: 100px;
+}
+.service-content {
+    width: 555px;
+    margin: auto 300px auto 0;
+}
+.service-btn {
+    color: #fff;
+    padding: 18px 75px;
+    font-size: 24px;
+    font-family: BlenderPro-Bold;
+    background-color: #84221F;
+    border: none;
+    cursor: pointer;
+}
+.service-btn:hover {
+    background-color: #751916;
+    transition: 0.3ms;
+}
+.slider-btn {
+    width: 90px;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: 3%;
+    z-index: 1000;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+
+
 .our-poligon-title {
     font-size: 69px;
     font-family: BlenderPro-Bold;
@@ -205,3 +299,38 @@ h1, h2, p {
     background-color: #751916;
     transition: 0.3ms;
 }
+
+
+.feedback {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    position: relative;
+    left: -4%;
+}
+.feedback-slider {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.feedback-slider-items {
+    display: flex;
+    margin: auto 100px;
+}
+.feedback-slider-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider-feedback-btn {
+    width: 90px;
+    height: 90px;
+    margin: auto 0;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    z-index: 999999;
+    position: relative;
+    left: 97%;
+    
+ }
