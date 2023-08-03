@@ -15,7 +15,7 @@
             <a href="index.html">  
                 <img src="img/logo.svg" alt="">
             </a> 
-            <button class="header-btn">
+            <button class="header-btn btn-modal-window">
                 Заказать звонок
             </button>
             </div>
@@ -78,7 +78,37 @@
                 autoplay; clipboard-write; encrypted-media; gyroscope; 
                 picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
+
+            <div class="games-target-icon">
+                <img src="img/icon_target.svg" alt="">
+                <img class="games-target-icon2" src="img/icon_target.svg" alt="">
+            </div>
+
         </div>
+
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-inner">
+                    <div class="close-modal-window">&times;</div>
+                </div>
+                <form action="#" class="modal-form" input type=”reset”>
+                    <div class="form-fields">
+    
+                        <input type="text" placeholder="Имя">
+                        
+                        <input type="tel" placeholder="Телефон">
+    
+                        <input type="email" placeholder="Email">
+    
+                    </div>
+                    <div class="form-btn">
+                    <button>Заказать звонок</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
     </main>
     <footer class="footer">
         <div class="container">
@@ -86,13 +116,13 @@
                 <div class="footer-item">
                     <img src="img/logo.svg" alt="">
                     <h3 class="adress">
-                        г. Ростов-на-Дону,ул. Большая Садовая , 103, 4 этаж
+                        г. Ростов-на-Дону, ул. Большая Садовая , 103, 4 этаж
                     </h3>
                     <a href="tel:+79064298882">+7(906)429 88 82</a>
                     <p class="privacy">Политика конфиденциальности</p>
                 </div>
                 <div class="footer-item">
-                    <button class="footer-btn">
+                    <button class="footer-btn btn-modal-window2">
                         Заказать звонок
                     </button>
                     <div class="footer-icon">
@@ -104,5 +134,6 @@
 
         </div>
     </footer>
-    </div>
+    <script src="main.js"></script>
 </body>
+</html>

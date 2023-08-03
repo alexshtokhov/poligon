@@ -12,7 +12,7 @@
         <div class="container">
             <div class="header-content">
             <img src="img/logo.svg" alt="">
-            <button class="header-btn">
+            <button class="header-btn btn-modal-window">
                 Заказать звонок
             </button>
             </div>
@@ -55,7 +55,7 @@
                         в спротивно-тактическом центре «Полигон 61». 
                     </h2>
                     <img src="img/order-content.jpg" alt="">
-                    <button class="order-btn">
+                    <button class="order-btn btn-modal-window">
                         Заказать игру
                     </button>
                 </div>
@@ -107,6 +107,10 @@
             </h1>
             <div class="services">
                 <div class="service-slider">
+                    <div class="service-target-icon">
+                        <img src="img/icon_target.svg" alt="">
+                        <img class="service-target-icon2" src="img/icon_target.svg" alt="">
+                    </div>
                         <div class="service-slider-line">
                             <div class="service-slider-item">
                                 <img class="service-slider-img" src="img/service-foto.jpg" alt="">
@@ -125,7 +129,7 @@
                                     <p class="service-text-2">
                                         до 12 человек 1   час — 6000 ₽   2 часа — 9000 ₽
                                     </p>
-                                    <button class="service-btn">
+                                    <button class="service-btn btn-modal-window">
                                         Заказать игру
                                     </button>
                                 </div>
@@ -147,7 +151,7 @@
                                     <p class="service-text-2">
                                         до 12 человек 1   час — 6000 ₽   2 часа — 9000 ₽
                                     </p>
-                                    <button class="service-btn">
+                                    <button class="service-btn btn-modal-window">
                                         Заказать бабулю
                                     </button>
                                 </div>
@@ -196,7 +200,7 @@
                     по вашему бюджету, мы выдаем всю экипировку в аренду, что значительно снизит 
                     ваши затраты. Все цены вы можете уточнить у наших сотрудников. 
                 </p>
-                <button class="our-poligon-btn">
+                <button class="our-poligon-btn btn-modal-window">
                     Заказать игру
                 </button>
                 </div>
@@ -206,34 +210,40 @@
     </section>
     <section>
         <div class="container">
+            <div class="feedback-target-icon2">
+                <img src="img/icon_target.svg" alt="">
+            </div>
             <div class="feedback"> 
-                <button class="slider-feedback-btn">
-                    <img src="img/Icon_arrow.svg" alt="">
-                </button>  
-                <div class="feedback-slider">
-                    <div class="feedback-slider-items">
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback.jpg" alt="">
+                    <button class="slider-feedback-btn">
+                        <img src="img/Icon_arrow.svg" alt="">
+                    </button>  
+                    <div class="feedback-slider">
+                        <div class="feedback-slider-items">
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback.jpg" alt="">
+                            </div>
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback (1).jpg" alt="">
+                            </div>
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback (2).jpg" alt="">
+                            </div>
                         </div>
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback (1).jpg" alt="">
+                        <div class="feedback-slider-items">
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback.jpg" alt="">
+                            </div>
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback (1).jpg" alt="">
+                            </div>
+                            <div class="feedback-slider-item">
+                                <img src="img/Feedback (2).jpg" alt="">
+                            </div>
                         </div>
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback (2).jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="feedback-slider-items">
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback.jpg" alt="">
-                        </div>
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback (1).jpg" alt="">
-                        </div>
-                        <div class="feedback-slider-item">
-                            <img src="img/Feedback (2).jpg" alt="">
-                        </div>
-                    </div>
-                </div>    
+                    </div>  
+            </div>
+            <div class="feedback-target-icon">
+                <img src="img/icon_target.svg" alt="">
             </div>
         </div>
     </section>
@@ -290,7 +300,7 @@
                     <p class="privacy">Политика конфиденциальности</p>
                 </div>
                 <div class="footer-item">
-                    <button class="footer-btn">
+                    <button class="footer-btn btn-modal-window">
                         Заказать звонок
                     </button>
                     <div class="footer-icon">
@@ -302,6 +312,27 @@
 
         </div>
 </footer>
-    <script src="main.js"></script>
+    <div id="my-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <div class="close-modal-window">&times;</div>
+            </div>
+            <form action="#" class="modal-form" input type=”reset”>
+                <div class="form-fields">
+
+                    <input type="text" placeholder="Имя">
+                    
+                    <input type="tel" placeholder="Телефон">
+
+                    <input type="email" placeholder="Email">
+
+                </div>
+                <div class="form-btn">
+                <button>Заказать звонок</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="main.js"></script>
 </body>
 </html>
