@@ -4,11 +4,11 @@ let offset = 0;
 const sliderLine = document.querySelector('.service-slider-line');
 
 document.querySelector('.slider-btn').addEventListener('click', function(){
-    offset += 1457;
-    if (offset > 1457){
-        offset = 0;
+        offset += 100;
+        if (offset > 100){
+            offset = 0;
     }
-    sliderLine.style.left = -offset + 'px';
+    sliderLine.style.left = -offset + '%';
 });
 
 
@@ -48,6 +48,7 @@ span.onclick = function () {
       modal.style.display = "none";
     }
   }
+
 
 
 
