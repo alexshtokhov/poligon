@@ -60,7 +60,7 @@ h1, h2, p {
     align-items: center;
     padding: 20px 10%;
 }
-@media (max-width: 376px) {
+@media (max-width: 550px) {
     .header-content img {
         width: 170px;
         height: auto;
@@ -143,7 +143,7 @@ h1, h2, p {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .main {
     height: 274px;
     }
@@ -219,7 +219,7 @@ h1, h2, p {
     background-color: #751916;
     transition: 0.3ms;
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .order-subtitle {
         font-size: 18px;
         width: 320px;
@@ -273,7 +273,7 @@ h1, h2, p {
     font-family: BlenderPro-Book;
     cursor: default;
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .advantage-items {
         margin-top: 20px;
         flex-wrap: nowrap;
@@ -430,7 +430,7 @@ h1, h2, p {
         right: 28%;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .service-title {
         font-size: 20px;
         margin-top: 50px;
@@ -515,7 +515,7 @@ h1, h2, p {
     left: 10%;
     cursor: default;
 }
-@media (min-width: 376px) {
+@media (min-width: 550px) {
     .our-poligon-img3 {
         display: none;
     }
@@ -575,7 +575,7 @@ h1, h2, p {
         left: 1%;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .our-poligon-title {
         font-size: 20px;
         left: 5%;
@@ -679,7 +679,7 @@ h1, h2, p {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .feedback-target-icon2 {
         display: none;
     }
@@ -750,7 +750,7 @@ h1, h2, p {
     margin-top: 60px;
     margin-bottom: 150px;
  }
- @media (max-width: 375px) {
+ @media (max-width: 550px) {
     .articles-title {
         font-size: 20px;
         left: 5%;
@@ -772,7 +772,7 @@ h1, h2, p {
  }
 
 
- @media (max-width: 375px) {
+ @media (max-width: 550px) {
     .map {
         height: 240px;
     }
@@ -832,7 +832,7 @@ h1, h2, p {
     position: relative;
     left: 24%;
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .footer-btn {
         display: none;
     }
@@ -928,7 +928,7 @@ h1, h2, p {
         left: 23%;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .games-title {
         font-size: 20px;
         margin-top: 28px;
@@ -1048,7 +1048,7 @@ h1, h2, p {
     transition: 0.3ms;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .modal .modal-content {
         width: 90%;
         font-size: 30px;
