@@ -379,7 +379,7 @@ h1, h2, p {
 .service-text-2 {
     font-size: 24px;
     font-family: BlenderPro-Book;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     cursor: default;
 }
 .service-content {
@@ -434,7 +434,7 @@ h1, h2, p {
         width: 1200px;
     }
     .service-slider-img {
-        left: -23%;
+        left: -22%;
     }
 
 }
@@ -462,14 +462,12 @@ h1, h2, p {
     .service-text-2 {
         display: none;
     }
-    }
     .service-btn {
         font-size: 14px;
         margin-left: 47%;
         position: relative;
         padding: 15px 37px;
-        top: -16px;
-        
+        top: -15px;
     }
     .service-slider {
         width: 335px;
@@ -507,7 +505,6 @@ h1, h2, p {
         margin-right: 10px;
         width: 335px;
         background-color: #454545
-        
     }
     .service-slider-item:last-child {
         margin-right: 0;
