@@ -4,14 +4,14 @@ const sliderLine = document.querySelector('.service-slider-line');
 
 document.querySelector('.slider-btn').addEventListener('click', function(){
     if (window.innerWidth > 1100) {
-        offset += 1457;
-        if (offset > 1457){
+        offset += 1500;
+        if (offset > 7500){
             offset = 0;
         }
     }
     if (window.innerWidth <= 1100) {
-        offset += 1217;
-        if (offset > 1217){
+        offset += 1200;
+        if (offset > 6000){
             offset = 0;
         }
     }

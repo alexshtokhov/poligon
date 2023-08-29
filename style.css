@@ -339,7 +339,7 @@ h1, h2, p {
     width: 504px;
     height: 467px;
     position: relative;
-    left: -23%;
+    left: -20%;
     top: 13%;
 }
 
@@ -352,6 +352,7 @@ h1, h2, p {
 .service-slider-item {
     display: flex;
     position: relative;
+    width: 1500px;
 }
 
 .service-slider {
@@ -370,7 +371,7 @@ h1, h2, p {
 }
 
 .service-text {
-    font-size: 24px;
+    font-size: 20px;
     font-family: BlenderPro-Book;
     padding-bottom: 30px;
     cursor: default;
@@ -378,13 +379,13 @@ h1, h2, p {
 .service-text-2 {
     font-size: 24px;
     font-family: BlenderPro-Book;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     cursor: default;
 }
 .service-content {
     width: 555px;
  
-    margin: auto 500px auto -150px;
+    margin: auto 650px auto -200px;
 }
 .service-btn {
     color: #fff;
@@ -429,6 +430,13 @@ h1, h2, p {
     .slider-btn {
         right: 28%;
     }
+    .service-slider-item {
+        width: 1200px;
+    }
+    .service-slider-img {
+        left: -23%;
+    }
+
 }
 @media (max-width: 550px) {
     .service-title {
@@ -443,24 +451,25 @@ h1, h2, p {
     .service-subtitle {
         font-size: 20px;
         margin-left: 47%;
-       padding-top: 28px;
+        padding-top: 28px;
+        padding-bottom: 15px;
     }
     .service-text {
-        font-size: 18px;
+        font-size: 16px;
         width: 298px;
         margin-left: 47%;
     }
     .service-text-2 {
-        font-size: 18px;
-        margin-left: 47%;
-        width: 216px;
+        display: none;
+    }
     }
     .service-btn {
         font-size: 14px;
         margin-left: 47%;
         position: relative;
         padding: 15px 37px;
-        top: -92px;
+        top: -16px;
+        
     }
     .service-slider {
         width: 335px;
@@ -498,6 +507,7 @@ h1, h2, p {
         margin-right: 10px;
         width: 335px;
         background-color: #454545
+        
     }
     .service-slider-item:last-child {
         margin-right: 0;
