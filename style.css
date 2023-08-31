@@ -376,6 +376,9 @@ h1, h2, p {
     padding-bottom: 30px;
     cursor: default;
 }
+.service-text-mobile {
+    display: none;
+}
 .service-text-2 {
     font-size: 24px;
     font-family: BlenderPro-Book;
@@ -415,6 +418,9 @@ h1, h2, p {
 .img-target-mobile2 {
     display: none;
 }
+.service-text-2-mobile {
+    display: none;
+}
 
 @media (max-width: 1100px) {
     .service-content {
@@ -441,8 +447,8 @@ h1, h2, p {
 @media (max-width: 550px) {
     .service-title {
         font-size: 20px;
-        margin-top: 50px;
-        margin-bottom: 10px;
+        margin-top: 30px;
+        margin-bottom: 15px;
         left: 5%;
     }
     .service-slider-img {
@@ -454,20 +460,36 @@ h1, h2, p {
         padding-top: 28px;
         padding-bottom: 15px;
     }
-    .service-text {
-        font-size: 16px;
+    .service-text-mobile {
+        font-size: 18px;
         width: 298px;
         margin-left: 47%;
+        font-family: BlenderPro-Book;
+        padding-bottom: 30px;
+        cursor: default;
+        display: block;
+    }
+    .service-text {
+        display: none;
     }
     .service-text-2 {
         display: none;
+    }
+    .service-text-2-mobile {
+        display: block;
+       font-size: 16px;
+       width: 250px;
+       margin-left: 250px;
+       
+       font-family: BlenderPro-Book;
+       cursor: default;
     }
     .service-btn {
         font-size: 14px;
         margin-left: 47%;
         position: relative;
         padding: 15px 37px;
-        top: -15px;
+        top: 25px;
     }
     .service-slider {
         width: 335px;
@@ -981,10 +1003,10 @@ h1, h2, p {
     transition: all ease 1s;
 }
 .modal .modal-content {
-     background-color: #454545;
+     background-color: #EDECEC;
      margin: 10% auto;
      padding: 20px;
-     width: 50%;
+     width: 620px;
      z-index: 9999;
      border-radius: 4px;
 }
@@ -1012,11 +1034,11 @@ h1, h2, p {
     margin-bottom: 50px;
 }
 .modal-form input {
-    width: 700px;
+    width: 450px;
     height: 60px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     border-radius: 4px;
-    background-color: #4b4b4b;
+    background-color: #49494bea;
     color: #fff;
     text-align: center;
     font-size: 18px;
@@ -1030,9 +1052,11 @@ h1, h2, p {
 }
 
 ::placeholder {
-    color: #828282;
-    font-size: 18px;
-    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: BlenderPro-Book;
 }
 
 .form-btn {
@@ -1040,30 +1064,54 @@ h1, h2, p {
     justify-content: center;
 }
 .form-btn button {
-    font-size: 25px;
+    font-size: 24px;
     color: #fff;
-    padding: 10px 0;
-    width: 700px;
+    padding: 17px 91px;
     margin-top: 20px;
     margin-bottom: 100px;
     background-color: #84221F;
     cursor: pointer;
     border: none;
+    font-family: BlenderPro-Bold;
 }
 .form-btn button:hover {
     background-color: #751916;
     transition: 0.3ms;
 }
+.modal-text {
+    font-family: BlenderPro-Book;
+    font-size: 22px;
+    color: #49494B;
+    text-align: center;
+}
+.modal-text span {
+    text-decoration: underline;
+}
 
 @media (max-width: 550px) {
     .modal .modal-content {
-        width: 90%;
+        width: 335px;
         font-size: 30px;
         padding: 0px 10px;
-        height: 410px;
+        height: 500px;
     }
     .form-btn button {
         margin-bottom: 0;
         font-size: 18px;
+    }
+    .modal-text {
+        font-size: 14px;
+    }
+    .form-btn button {
+        font-size: 16px;
+    }
+    ::placeholder {
+        font-size: 14px;
+    }
+    .modal-form input {
+        width: 275px;
+        height: 43px;
+        margin-bottom: 15px;
+        font-size: 14px;
     }
 }
