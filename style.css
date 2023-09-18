@@ -42,7 +42,7 @@ h1, h2, p {
     color: #fff;
     padding: 13px 50px;
     font-size: 20px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -88,13 +88,10 @@ h1, h2, p {
     background-size: cover;
 }
 .main-title {
-    font-family: BlenderPro-Heavy;
+    font-family: BlenderPro-Heavy, serif;
     font-size: 60px;
     color: #fff;
-    padding-top: 359px;
-    padding-right: 10%;
-    padding-left: 40%;
-    padding-bottom: 100px;
+    padding: 359px 10% 100px 40%;
     cursor: default;
 }
 .main-items {
@@ -119,13 +116,13 @@ h1, h2, p {
 .main-item-text {
     color: #fff;
     font-size: 24px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     padding-right: 50px;
 }
 .main-item-title {
     color: #fff;
     font-size: 69px;
-    font-family:OpenSans-SemiBold;
+    font-family: OpenSans-SemiBold, serif;
     padding-right: 8px;
 }
 .img-target-mobile {
@@ -149,10 +146,7 @@ h1, h2, p {
     }
     .main-title {
         font-size: 24px;
-        padding-top: 110px;
-        padding-right: 7px;
-        padding-left: 15%;
-        padding-bottom: 50px;
+        padding: 110px 7px 50px 15%;
     }
     .main-item-title {
         font-size: 29px;
@@ -179,11 +173,6 @@ h1, h2, p {
     }
 }
 
-
-
-
-
-
 .order-content {
     cursor: default;
 }
@@ -198,7 +187,7 @@ h1, h2, p {
     height: 249px;
     color: #fff;
     font-size: 40px;
-    font-family: BlenderPro-Medium;
+    font-family: BlenderPro-Medium, serif;
     position: relative;
     left: 13%;
     top: 200px;
@@ -207,7 +196,7 @@ h1, h2, p {
     color: #fff;
     padding: 18px 75px;
     font-size: 24px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -242,11 +231,6 @@ h1, h2, p {
 }
 
 
-
-
-
-
-
 .advantage-items {
     display: flex;
     flex-wrap: wrap;
@@ -264,18 +248,17 @@ h1, h2, p {
 }
 .advantage-title {
     font-size: 40px;
-    font-family: BlenderPro-Medium;
+    font-family: BlenderPro-Medium, serif;
     padding-bottom: 24px;
     cursor: default;
 }
 .advantage-text {
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     cursor: default;
 }
 @media (max-width: 550px) {
     .advantage-items {
-        margin-top: 20px;
         flex-wrap: nowrap;
         margin-top: 10px;
         overflow-x: scroll;
@@ -328,7 +311,7 @@ h1, h2, p {
 
 .service-title {
     font-size: 69px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     margin-top: 150px;
     margin-bottom: -70px;
     position: relative;
@@ -365,14 +348,14 @@ h1, h2, p {
 
 .service-subtitle {
     font-size: 40px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     padding-bottom: 36px;
     cursor: default;
 }
 
 .service-text {
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     padding-bottom: 30px;
     cursor: default;
 }
@@ -381,7 +364,7 @@ h1, h2, p {
 }
 .service-text-2 {
     font-size: 24px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     padding-bottom: 100px;
     cursor: default;
 }
@@ -394,7 +377,7 @@ h1, h2, p {
     color: #fff;
     padding: 18px 75px;
     font-size: 24px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -464,7 +447,7 @@ h1, h2, p {
         font-size: 18px;
         width: 298px;
         margin-left: 47%;
-        font-family: BlenderPro-Book;
+        font-family: BlenderPro-Book, serif;
         padding-bottom: 30px;
         cursor: default;
         display: block;
@@ -480,8 +463,8 @@ h1, h2, p {
        font-size: 16px;
        width: 250px;
        margin-left: 250px;
-       
-       font-family: BlenderPro-Book;
+
+        font-family: BlenderPro-Book, serif;
        cursor: default;
     }
     .service-btn {
@@ -537,7 +520,7 @@ h1, h2, p {
 
 .our-poligon-title {
     font-size: 69px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     padding-top: 50px;
     padding-bottom: 60px;
     position: relative;
@@ -555,7 +538,7 @@ h1, h2, p {
     position: relative;
     left: -5%;
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     cursor: default;
 }
 .our-poligon-text2 {
@@ -563,7 +546,7 @@ h1, h2, p {
     position: relative;
     left: 25%;
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     cursor: default;
 }
 .our-poligon-img2 {
@@ -581,7 +564,7 @@ h1, h2, p {
     color: #fff;
     padding: 18px 75px;
     font-size: 24px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -746,7 +729,7 @@ h1, h2, p {
 
  .articles-title {
     font-size: 69px;
-    font-family: BlenderPro-Bold;
+     font-family: BlenderPro-Bold, serif;
     padding-bottom: 70px;
     position: relative;
     left: 10%;
@@ -754,7 +737,7 @@ h1, h2, p {
  .articles-item a {
     font-size: 36px;
     color: #fff;
-    font-family: BlenderPro-Medium;
+     font-family: BlenderPro-Medium, serif;
     padding-bottom: 30px;
     cursor: pointer;
     text-decoration: none;
@@ -816,7 +799,7 @@ h1, h2, p {
     padding: 13px 50px;
     margin-bottom: 83px;
     font-size: 20px;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
     background-color: #84221F;
     border: none;
     cursor: pointer;
@@ -834,9 +817,9 @@ h1, h2, p {
 .footer-btn-mobile {
     display: none;
 }
-.adress {
+.address {
     font-size: 24px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     color: #fff;
     margin-top: 30px;
     margin-bottom: 13px;
@@ -844,13 +827,13 @@ h1, h2, p {
 }
 .footer-item a {
     font-size: 20px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     color: #fff;
     text-decoration: none;
 }
 .privacy {
     font-size: 16px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     margin-top: 22px;
     margin-bottom: 30px;
     cursor: default;
@@ -868,7 +851,7 @@ h1, h2, p {
     .footer-item img {
         width: 157px;
     }
-    .adress {
+    .address {
         font-size: 14px;
     }
     .footer-item a {
@@ -922,13 +905,13 @@ h1, h2, p {
 }
 .games-title {
     font-size: 40px;
-    font-family: BlenderPro-Medium;
+    font-family: BlenderPro-Medium, serif;
     margin-bottom: 50px;
     margin-top: 80px;
 }
 .games-list {
     font-size: 24px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     color: #fff;
 
     position: relative;
@@ -937,7 +920,7 @@ h1, h2, p {
 }
 .games-text p {
     font-size: 24px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
 }
 .games-text {
     line-height: 1.4;
@@ -979,8 +962,7 @@ h1, h2, p {
     .video-games iframe {
         width: 330px;
         height: 188px;
-        margin: -40px auto -80px auto;
-        margin-left: -20px;
+        margin: -40px auto -80px -20px;
     }
     .video-games {
         margin-bottom: 0;
@@ -1056,7 +1038,7 @@ h1, h2, p {
     font-size: 20px;
     text-align: left;
     padding-left: 10px;
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
 }
 
 .form-btn {
@@ -1072,14 +1054,14 @@ h1, h2, p {
     background-color: #84221F;
     cursor: pointer;
     border: none;
-    font-family: BlenderPro-Bold;
+    font-family: BlenderPro-Bold, serif;
 }
 .form-btn button:hover {
     background-color: #751916;
     transition: 0.3ms;
 }
 .modal-text {
-    font-family: BlenderPro-Book;
+    font-family: BlenderPro-Book, serif;
     font-size: 22px;
     color: #49494B;
     text-align: center;
@@ -1092,7 +1074,7 @@ h1, h2, p {
     .modal .modal-content {
         width: 335px;
         font-size: 30px;
-        padding: 0px 10px;
+        padding: 0 10px;
         height: 500px;
     }
     .form-btn button {

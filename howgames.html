@@ -89,37 +89,14 @@
 
         </div>
 
-        <div id="my-modal" class="modal">
-            <div class="modal-content">
-                <div class="modal-inner">
-                    <div class="close-modal-window">&times;</div>
-                </div>
-                <form action="#" class="modal-form" input type=”reset”>
-                    <div class="form-fields">
-    
-                        <input type="text" placeholder="Имя">
-                        
-                        <input type="tel" placeholder="Телефон">
-    
-                        <input type="email" placeholder="Email">
-    
-                    </div>
-                    <div class="form-btn">
-                    <button>Заказать звонок</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-item">
                     <img src="img/logo.svg" alt="">
-                    <h3 class="adress">
-                        г. Ростов-на-Дону, ул. Большая Садовая , 103, 4 этаж
+                    <h3 class="address">
+                        г. Ростов-на-Дону , ул Собино , 48
                     </h3>
                     <a href="tel:+79064298882">+7(906)429 88 82</a>
                     <p class="privacy">Политика конфиденциальности</p>
@@ -141,25 +118,33 @@
 
         </div>
     </footer>
-    <div id="my-modal" class="modal">
-        <div class="modal-content">
-            <div class="modal-inner">
-                <div class="close-modal-window">&times;</div>
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-inner">
+                    <div class="close-modal-window">&times;</div>
+                </div>
+                <form id="myForm" action="#" class="modal-form" input type=”reset”>
+                    <div class="form-fields">
+
+                        <input type="text" id="name" placeholder="Ваше имя">
+
+                        <input type="tel" id="phone" placeholder="Ваш телефон">
+
+                        <input type="text" id="counter" placeholder="Кол-во человек">
+
+                        <input type="text" id="date" placeholder="Желаемая дата и время">
+
+                    </div>
+                    <div>
+                        <p class="modal-text">Нажимая на кнопку «Заказать игру», вы даете согласие
+                            на обработку персональных данных в соответствии
+                            <span>с политикой конфиденциальности</span></p>
+                    </div>
+                    <div class="form-btn">
+                        <button>Отправить</button>
+                    </div>
+                </form>
             </div>
-            <form action="#" class="modal-form" input type=”reset”>
-                <div class="form-fields">
-
-                    <input type="text" placeholder="Имя">
-                    
-                    <input type="tel" placeholder="Телефон">
-
-                    <input type="email" placeholder="Email">
-
-                </div>
-                <div class="form-btn">
-                <button>Заказать звонок</button>
-                </div>
-            </form>
         </div>
     </div>
 <script src="modals.js"></script>
